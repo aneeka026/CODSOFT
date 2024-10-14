@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #98DED9;
+}
+
+/*First Section*/
+.First_s{
+    background-color: #98DED9;
+    color: black;
+    height: 640px;
+}
+#nav{
+    background-color: white;
+    padding-left: 50px;
+    margin: 20px 0px 20px 0px;
+    height: 30px;
+    width: 1300px;
+}
+#im_1{
+    height: 30px;
+}
+.content{
+    margin-left: 50px;
+    width: 1300px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.first_part{
+    padding-top: 100px;
+    width: 600px;
+    height: 600px;
+}
+.second_part{
+    width: 600px;
+    height: 600px;
+}
+#im_2{
+    height: 500px;
+}
+#heading{
+    padding-top: 80px;
+    height: 150px;
+    width: 500px;
+}
+#head-1{
+    height: 75px;
+    padding: 10px;
+    font-size: 60px;
+}
+#head-2{
+    height: 90px;
+    padding: 10px;
+    font-size: 40px;
+}
+#head-3{
+    display: flex;
+    padding-top: 40px;
+    height: 80px;
+}
+.btn{
+    border-radius: 40%;
+    height: 48px;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.Second_s{
+    background-color: #071952;
+    height: 500px;
+}
+
+/*Second section*/
+.about{
+    height: 500px;
+    width: 500px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg_image{
+    background-color:black;
+}
+#bg4image{
+    background-color: rgb(225, 196, 149);
+}
+#bg5image{
+    background-color: #98DED9;
+}
+
+/*Third section*/
+.Third_s{
+    height: 500px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.box{
+    width: 220px;
+    background-color: white;
+    border-radius: 10%;
+    margin-right: 30px;
+    padding: 15px;
+}
+#shop-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*Fourth section*/
+.Fourth_s{
+    background-color: #071952;
+    height: 500px;
+}
+
+/*Fifth Section*/
+ #connect{
+    display: flex;
+    align-items: center;
+ }
+ #co-1{
+    margin-right: 50px;
+    font-size: 30px;
+ }
+ #co-2{
+    display: flex;
+    width: 500px;
+    padding: 20px;
+    
+ }
+ .boxx{
+    margin-right: 50px;
+ }
