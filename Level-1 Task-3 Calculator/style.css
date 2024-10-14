@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.calculator{
+    padding: 20px;
+    border: 1px solid white;
+}
+
+input{
+    width: 260px;
+    font-size: 40px;
+    margin: 10px;
+    padding: 24px;
+    text-align: right;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.num-button{
+    background-color: rgb(225, 215, 215);
+    color: black;
+}
+
+#eq-button{
+    background-color: red;
+}
+
+.symbol-button{
+    color: red;
+}
